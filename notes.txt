@@ -1,0 +1,13 @@
+tokenization : converting the paragraph into sentence and then converting it into list of words called tokenization.
+stop words : words that dont add any meaning to the sentences like in "I love Python"------ "I" does not have any sentiment.
+when we used NLTK a python package to used language processing we already have list of words.
+
+
+NLP emotion Algorithim
+1. check the words of final_words in emotions.txt is present or not?
+    -> open emotion file
+    -> loop through each line and clear it.
+    -> extract the words and emotion usng split
+
+2. if present add word to emotion_list
+3. finally count each emotion in emotion list.
